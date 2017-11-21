@@ -1,0 +1,12 @@
+{
+  "name": "chickentendies",
+  "version": "1.0.0",
+  "description": "Tender bot made to test using the tinder api in a webapp",
+  "main": "app.js",
+  "dependencies": {
+    "tinderbot": "^0.8.6"
+  },
+  "repository": "https://github.com/AMorton09/ChickenTendies.git",
+  "author": "Andrew Morton <morton09@me.com>",
+  "license": "MIT"
+}
