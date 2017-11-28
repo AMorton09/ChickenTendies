@@ -1,6 +1,11 @@
-var tinderbot = require('tinderbot');
-var bot = new tinderbot();
-var _ = require('underscore')
+const tinderbot = require('tinderbot');
+const bot = new tinderbot();
+const _ = require('underscore');
+const config = require('config');
+
+bot.FBClientId = config.id ;
+bot.FBClientSecret = config.secret;
+
 
 bot.mainLoop = function() {
     bot.client.getRecommendations(10, function(error, data){
@@ -11,7 +16,7 @@ bot.mainLoop = function() {
                     if (data.matched) {
                         bot.client.sendMessage(
                             id,
-                            "Hey, I'm playing this cool new game Castle Clash. Have you heard of it?"
+                            "Hey, hun how are you"
                         );
                     }
                 });
