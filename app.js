@@ -1,7 +1,7 @@
 const tinderbot = require('tinderbot');
 const bot = new tinderbot();
 const _ = require('underscore');
-const config = require('config');
+const config = require('./config.js');
 
 bot.FBClientId = config.id ;
 bot.FBClientSecret = config.secret;

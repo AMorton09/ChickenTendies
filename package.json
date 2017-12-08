@@ -4,7 +4,12 @@
   "description": "Tender bot made to test using the tinder api in a webapp",
   "main": "app.js",
   "dependencies": {
-    "tinderbot": "^0.8.6"
+    "tinderbot": "^0.8.6",
+    "underscore": "^1.8.3 "
+  },
+  "scripts": {
+    "test": "echo THE PATTERN IS CLEAR",
+    "start": "node app.js"
   },
   "repository": "https://github.com/AMorton09/ChickenTendies.git",
   "author": "Andrew Morton <morton09@me.com>",
